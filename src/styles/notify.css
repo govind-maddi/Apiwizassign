@@ -1,0 +1,37 @@
+.notify_cont{
+    width: auto;
+    height: auto;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(249, 255, 255, 1);
+    box-shadow: 1px 2px 5px 5px #1018281A;
+    padding: 15px;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    top: -100%;
+    transform: translate(-50%, -50%);
+    transition: all 0.5s ease;
+}
+#notify_cont_movedown{
+    top: 60px;
+}
+.notify_cont > header{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: calc(1.5 * 18px);
+}
+.notify_cont > span{
+    font-size: 25px;
+    color: #731EE2;
+    font-weight: 500;
+}
+@media screen and ( max-width:600px ) {
+    .notify_cont{
+        width: 90%;
+        max-width: 90%;
+    }
+}

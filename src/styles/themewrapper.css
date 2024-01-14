@@ -1,0 +1,41 @@
+.themebtn{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    padding: 6px 8px;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 3px 0px rgba(16, 24, 40, 0.1);
+    font-size: 18px;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.theme_cont{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    gap: 20px;
+    position: absolute;
+    top: 66px;
+    right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    z-index: 10;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffffff;
+    box-shadow: 1px 2px 5px 5px #1018281A;
+}
+.theme_cont > section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.theme_cont > section > input{
+    margin-right: 10px;
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    color: black;
+}
